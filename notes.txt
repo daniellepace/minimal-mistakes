@@ -1,0 +1,13 @@
+1. Clone repo from github
+2. Add to Gemfile:
+gem "minimal-mistakes-jekyll"
+3. Add to _config.yml:
+theme: minimal-mistakes-jekyll
+4. bundle install
+5. bundle exec jekyll serve
+6. Navigate to localhost:4000
+
+Making changes:
+Edit _config.yml
+bundle update
+bundle exec jekyll serve
