@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "Publications"
-    url: /publications/
+    url: /#publications
   - title: "Research"
-    url: /research/
+    url: /#research
   - title: "Data"
-    url: /data/
+    url: /#data
   - title: "CV"
     url: /assets/docs/DaniellePace_CV.pdf
 
