@@ -16,8 +16,8 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
-title_separator          : "-"
+title                    : "Danielle F. Pace"
+title_separator          : "|"
 name                     : "Danielle F. Pace"
 description              : "The personal website of Danielle F. Pace"
 url                      : # "http://people.csail.mit.edu"
@@ -102,7 +102,12 @@ analytics:
 author:
   name             : "Danielle F. Pace"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "Ph.D. candidate in medical image analysis at MIT."
+  bio              : "Ph.D. Candidate"
+  group            : "Medical Vision Group"
+  lab              : "Computer Science and Artificial Intelligence Laboratory"
+  lab_link         : "https://www.csail.mit.edu/"
+  uni              : "Massachusetts Institute of Technology"
+  uni_link         : "https://www.mit.edu/"
   location         : 
   email            : "dfpace [at] mit.edu"
   uri              :

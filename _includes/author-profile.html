@@ -34,9 +34,22 @@
     {% else %}
       <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
     {% endif %}
-    {% if author.bio %}
+    {% if author.bio or author.group or author.lab or author.uni %}
       <p class="author__bio" itemprop="description">
+    {% endif %}
+    {% if author.bio %}
         {{ author.bio }}
+    {% endif %}
+    {% if author.group %}
+        </br>{{ author.group }}
+    {% endif %}
+    {% if author.lab and author.lab_link%}
+        </br><a href={{ author.lab_link }} target="_blank">{{ author.lab }}</a>
+    {% endif %}
+    {% if author.uni and author.uni_link%}
+        </br><a href={{ author.uni_link }} target="_blank">{{ author.uni }}</a>
+    {% endif %}
+    {% if author.bio or author.group or author.lab or author.uni%}
       </p>
     {% endif %}
   </div>
