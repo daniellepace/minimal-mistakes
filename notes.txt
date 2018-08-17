@@ -1,4 +1,4 @@
-1. Clone repo from github
+1. Clone repo from github into my_website
 2. Add to Gemfile:
 gem "minimal-mistakes-jekyll"
 3. Add to _config.yml:
@@ -9,5 +9,12 @@ theme: minimal-mistakes-jekyll
 
 Making changes:
 Edit _config.yml
-bundle update
-bundle exec jekyll serve
+bundle exec jekyll serve --> localhost:4000
+
+production: https://jekyllrb.com/docs/usage/
+cd my_website
+JEKYLL_ENV=production bundle exec jekyll build
+cp -r _site/* ../public_html/
+
+fix 403 permissions error: https://tig.csail.mit.edu/web-services/personal-web-page/
+fs setacl public_html/ system:anyuser none system:authuser read

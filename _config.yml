@@ -20,7 +20,7 @@ title                    : "Danielle F. Pace"
 title_separator          : "-"
 name                     : "Danielle F. Pace"
 description              : "The personal website of Danielle F. Pace"
-url                      : "people.csail.mit.edu"
+url                      : "http://people.csail.mit.edu"
 baseurl                  : "/dfpace"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Danielle F. Pace"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Under development."
   location         : 
   email            :
   uri              :
