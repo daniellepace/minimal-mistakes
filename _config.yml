@@ -20,8 +20,8 @@ title                    : "Danielle F. Pace"
 title_separator          : "-"
 name                     : "Danielle F. Pace"
 description              : "The personal website of Danielle F. Pace"
-url                      : "http://people.csail.mit.edu"
-baseurl                  : "/dfpace"
+url                      : # "http://people.csail.mit.edu"
+baseurl                  : # "/dfpace"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -258,14 +258,11 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # _pages
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+
