@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Danielle F. Pace"
+title                    : "Home"
 title_separator          : "-"
 name                     : "Danielle F. Pace"
 description              : "The personal website of Danielle F. Pace"
@@ -102,9 +102,9 @@ analytics:
 author:
   name             : "Danielle F. Pace"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "Under development."
+  bio              : "Ph.D. candidate in medical image analysis at MIT."
   location         : 
-  email            :
+  email            : "dfpace [at] mit.edu"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -119,7 +119,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "danielle-pace-3556301b" # (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -130,6 +130,7 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  scholar          : "https://scholar.google.com/citations?user=c5rHL6QAAAAJ&hl=en"
 
 
 # Reading Files

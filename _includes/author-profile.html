@@ -1,6 +1,8 @@
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
 
+<link rel="stylesheet" href="/assets/css/academicons.min.css"/>
+
 <div itemscope itemtype="http://schema.org/Person">
 
   {% if author.avatar %}
@@ -58,9 +60,14 @@
 
       {% if author.email %}
         <li>
-          <a href="mailto:{{ author.email }}">
-            <meta itemprop="email" content="{{ author.email }}" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> {{ author.email }}
+        </li>
+      {% endif %}
+
+      {% if author.scholar %}
+        <li>
+          <a href="{{ author.scholar }}" target="_blank" itemprop="sameAs">
+            <i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar
           </a>
         </li>
       {% endif %}
@@ -99,7 +106,7 @@
 
       {% if author.linkedin %}
         <li>
-          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs">
+          <a href="https://www.linkedin.com/in/{{ author.linkedin }} " target="_blank" itemprop="sameAs">
             <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
