@@ -13,8 +13,25 @@ bundle exec jekyll serve --> localhost:4000
 
 production: https://jekyllrb.com/docs/usage/
 cd my_website
-JEKYLL_ENV=production bundle exec jekyll build
-cp -r _site/* ../public_html/
+JEKYLL_ENV=production bundle exec jekyll build; rm ../public_html/*; cp -r _site/* ../public_html/
+
 
 fix 403 permissions error: https://tig.csail.mit.edu/web-services/personal-web-page/
 fs setacl public_html/ system:anyuser none system:authuser read
+
+-------FONTS
+
+global-font-family - changes main text, caption on title bar <-- set to sans-serif
+header-font-family - changes header (my big name) <-- set to sans-serif
+caption-font-family - don't see it anywhere
+monospace - unused
+sans-serif-narrow - set to sans-serif anyways
+serif - Times - unused
+sans-serif <-- this is the main one
+
+
+in _variables.scss
+$sans-serif: -apple-system, BlinkMacSystemFont, "PT Sans", "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+Want to change to PT Sans
+
