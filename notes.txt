@@ -29,18 +29,16 @@ sans-serif-narrow - set to sans-serif anyways
 serif - Times - unused
 sans-serif <-- this is the main one
 
-
 in _variables.scss
 $sans-serif: -apple-system, BlinkMacSystemFont, "PT Sans", "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
-Want to change to PT Sans
 
-
+-------TODO
 
 TODO - website
-- fix font
 - google scholar icon
 - contact info doesn't show up on phone
+- change formatting of sidebar links
 
 TODO - writing:
 - add research statement
