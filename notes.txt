@@ -42,10 +42,14 @@ TODO - website
 - fix font
 - google scholar icon
 - contact info doesn't show up on phone
-- get masthead to look good on phone?
+- new masthead picture
+- new profile picture
 
 TODO - writing:
 - add research statement
 - add research section
 - add data section
 - fix up cv
+
+TODO - final:
+- link it somewhere!!

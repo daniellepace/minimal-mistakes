@@ -10,3 +10,13 @@ main:
     url: /assets/docs/DaniellePace_CV.pdf
     target: "_blank"
 
+side:
+  - title: "Publications"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Data"
+    url: /data/
+  - title: "CV"
+    url: /assets/docs/DaniellePace_CV.pdf
+    target: "_blank"
