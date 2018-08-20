@@ -17,7 +17,7 @@ JEKYLL_ENV=production bundle exec jekyll build; rm -rf ../public_html/*; cp -r _
 
 
 fix 403 permissions error: https://tig.csail.mit.edu/web-services/personal-web-page/
-fs setacl public_html/ system:anyuser none system:authuser read
+fs setacl public_html/ system:anyuser read
 
 -------FONTS
 
@@ -37,12 +37,15 @@ Want to change to PT Sans
 
 
 
-TODO:
+TODO - website
+- download permissions
+- fix font
+- google scholar icon
+- contact info doesn't show up on phone
+- get masthead to look good on phone?
+
+TODO - writing:
 - add research statement
 - add research section
 - add data section
 - fix up cv
-- fix top banner
-- fix font
-- test on different monitor sizes
-- get masthead to look good on phone?
