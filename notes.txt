@@ -38,12 +38,9 @@ Want to change to PT Sans
 
 
 TODO - website
-- download permissions
 - fix font
 - google scholar icon
 - contact info doesn't show up on phone
-- new masthead picture
-- new profile picture
 
 TODO - writing:
 - add research statement
@@ -51,5 +48,10 @@ TODO - writing:
 - add data section
 - fix up cv
 
+TODO - pictures
+- new masthead picture
+- new profile picture
+
 TODO - final:
 - link it somewhere!!
+
