@@ -35,3 +35,14 @@ $sans-serif: -apple-system, BlinkMacSystemFont, "PT Sans", "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
 Want to change to PT Sans
 
+
+
+TODO:
+- add research statement
+- add research section
+- add data section
+- fix up cv
+- fix top banner
+- fix font
+- test on different monitor sizes
+- get masthead to look good on phone?
