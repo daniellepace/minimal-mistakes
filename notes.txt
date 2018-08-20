@@ -13,7 +13,7 @@ bundle exec jekyll serve --> localhost:4000
 
 production: https://jekyllrb.com/docs/usage/
 cd my_website
-JEKYLL_ENV=production bundle exec jekyll build; rm ../public_html/*; cp -r _site/* ../public_html/
+JEKYLL_ENV=production bundle exec jekyll build; rm -rf ../public_html/*; cp -r _site/* ../public_html/
 
 
 fix 403 permissions error: https://tig.csail.mit.edu/web-services/personal-web-page/
