@@ -36,9 +36,7 @@ $sans-serif: -apple-system, BlinkMacSystemFont, "PT Sans", "Roboto", "Segoe UI",
 -------TODO
 
 TODO - website
-- google scholar icon
 - contact info doesn't show up on phone
-- change formatting of sidebar links
 
 TODO - writing:
 - add research statement

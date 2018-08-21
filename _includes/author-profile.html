@@ -1,8 +1,6 @@
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
 
-<link rel="stylesheet" href="/assets/css/academicons.min.css"/>
-
 <div itemscope itemtype="http://schema.org/Person">
 
   {% if author.avatar %}
