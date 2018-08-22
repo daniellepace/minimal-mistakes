@@ -48,7 +48,6 @@ TODO - writing:
 - fix up cv
 
 TODO - pictures
-- new masthead picture
 - new profile picture
 
 TODO - final:

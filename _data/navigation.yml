@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Publications"
+  - title: "Bio / Publications"
     url: /
   - title: "Research"
     url: /research/
@@ -11,7 +11,7 @@ main:
     target: "_blank"
 
 side:
-  - title: "Publications"
+  - title: "Bio / Publications"
     url: /
   - title: "Research"
     url: /research/
