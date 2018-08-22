@@ -31,12 +31,15 @@ sans-serif <-- this is the main one
 
 in _variables.scss
 $sans-serif: -apple-system, BlinkMacSystemFont, "PT Sans", "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important
+
+-------BUTTON
+
+author__content       includes author__name and author__bio
+author__urls-wrapper, includes author__urls
 
 -------TODO
 
-TODO - website
-- contact info doesn't show up on phone
 
 TODO - writing:
 - add research statement

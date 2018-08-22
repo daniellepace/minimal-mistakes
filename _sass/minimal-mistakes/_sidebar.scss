@@ -205,9 +205,9 @@
   button {
     margin-bottom: 0;
 
-    @include breakpoint($large) {
-      display: none;
-    }
+    // @include breakpoint($large) {
+    display: none;
+    // }
   }
 }
 
@@ -229,15 +229,15 @@
     display: block;
   }
 
-  @include breakpoint($large) {
-    display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
-  }
+  // @include breakpoint($large) {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  // }
 
   &:before {
     display: block;
@@ -251,9 +251,9 @@
     border-color: $border-color transparent;
     z-index: 0;
 
-    @include breakpoint($large) {
-      display: none;
-    }
+    //  @include breakpoint($large) {
+    display: none;
+    // }
   }
 
   &:after {
@@ -268,9 +268,9 @@
     border-color: $background-color transparent;
     z-index: 1;
 
-    @include breakpoint($large) {
-      display: none;
-    }
+    // @include breakpoint($large) {
+    display: none;
+    // }
   }
 
   li {
