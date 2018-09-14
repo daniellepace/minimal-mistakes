@@ -42,9 +42,7 @@ author__urls-wrapper, includes author__urls
 
 
 TODO - writing:
-- add research statement on main page
-- add research statement on research page
-- add research section
+- add research sections
 - fix up cv
 
 TODO - pictures
