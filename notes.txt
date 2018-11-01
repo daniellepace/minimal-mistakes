@@ -40,15 +40,5 @@ author__urls-wrapper, includes author__urls
 
 -------TODO
 
-
-TODO - writing:
-- add research sections
-- fix up cv
-
-TODO - pictures
-- new profile picture
-
-TODO - final:
-- link it somewhere!!
 - namecheap - daniellefpace.com, daniellepace.ca is free!
 
